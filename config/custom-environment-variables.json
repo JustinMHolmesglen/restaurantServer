@@ -1,0 +1,6 @@
+{
+    "appPrivateKey": "12v-78d-asklj$4",   
+    "db": {
+        "connectionString": "DB_CONNECTION_STRING"
+    }
+}
