@@ -1,7 +1,7 @@
 {
-    "appEnv": "development",
-    "appPrivateKey": "defaultPrivateKey",
+    "appEnv": "production",
+    "appPrivateKey": "PRIVATE_KEY",
     "db": {
-        "connectionString": "mongodb://localhost:37017/"
+        "connectionString": "DB_CONNECTION_STRING"
     }
 }
