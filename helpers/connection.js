@@ -21,7 +21,7 @@ const client = new MongoClient(uri, {
     deprecationErrors: true,
   }
 });
-async function run() {
+async function connect() {
   try {
     // Connect the client to the server	(optional starting in v4.7)
     await client.connect();
@@ -33,4 +33,4 @@ async function run() {
     await client.close();
   }
 }
-run().catch(console.dir);
+connect().catch(console.dir);
