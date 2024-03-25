@@ -16,7 +16,7 @@ const { mergeTypeDefs, mergeResolvers } = require('@graphql-tools/merge');
 
 //connectoin
 const { MongoClient, ServerApiVersion } = require('mongodb');
-const { ApolloServer } = require('apollo-server');
+// const { ApolloServer } = require('apollo-server');
 const { typeDefsMerged, resolversMerged } = require('./graphql'); // Assuming your GraphQL schema and resolvers are in a separate file
 const debugStartup = require('./debugStartup');
 
