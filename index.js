@@ -68,7 +68,7 @@ async function startServer(){
     })
     
     const databaseName = 'crispy-eats'
-    connect(`${dbConnectionString}${databaseName}`)
+    run(`${dbConnectionString}${databaseName}`)
     const { url } = await startStandaloneServer(server, {listen: {port:process.env.PORT}})
     console.log(`🚀 Server ready at ${url}`)
 }
