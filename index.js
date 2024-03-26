@@ -105,7 +105,7 @@ const resolversMerged = mergeResolvers(registerResolvers);
 
         // Start Apollo Server only after successful MongoDB connection
         await server.start();
-        const { url, server: 54.254.162.138 } = await server.listen({ port: process.env.PORT });
+        const { url, server: httpServer } = await server.listen({ port: process.env.PORT });
         console.log(`🚀 Server ready at ${url}`);
     } catch (error) {
         console.error("Error connecting to MongoDB:", error);
