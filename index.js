@@ -5,7 +5,7 @@ const { startStandaloneServer } = require('@apollo/server/standalone');
 // const fileUpload = require('express-fileupload');
 // const cors = require('cors');
 // const morgan = require('morgan');
-// const debugStartup = require('debug')('app:startup');
+const debugStartup = require('debug')('app:startup');
 
 // const ApiError = require('./src/utils/ApiError');
 // const apiErrorHandler = require('./src/middleware/apiErrorHandler');
