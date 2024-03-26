@@ -108,7 +108,7 @@ const resolversMerged = mergeResolvers(registerResolvers);
         const httpServer = http.createServer(server);
         httpServer.listen({ port: process.env.PORT }, () => {
             console.log(`🚀 Server ready at http://localhost:${process.env.PORT}${server.graphqlPath}`);
-       
+       });
     } catch (error) {
         console.error("Error connecting to MongoDB:", error);
         // Handle error appropriately, e.g., retry logic, shutting down the server, etc.
